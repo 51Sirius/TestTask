@@ -51,7 +51,6 @@ async def handle_message(message: types.Message):
 
 
 async def main():
-    # Start polling
     await dp.start_polling(bot)
 
 
